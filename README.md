@@ -10,3 +10,7 @@ Following the [speed run ethereum](https://speedrunethereum.com/) by [Austin Gri
 
 A staking app basically 'locks' up your digital tokens for a certain time. 
 You stake because the blockchain puts these tokens to work: Proof of Stake. If you stake your crypto it will become part of the process, transactions are validated by people who stake the tokens. 
+
+More on [Ethereum Staking](https://ethereum.org/en/staking/#stake)
+
+[WhiteBoard Crypto](https://www.youtube.com/watch?v=vZ2UZdB07fo&ab_channel=WhiteboardCrypto)
