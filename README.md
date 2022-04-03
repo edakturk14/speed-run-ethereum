@@ -6,7 +6,7 @@ I'm [speeding running ethereum](https://speedrunethereum.com/) by [Austin Griffi
 
 ## Challenge 0: 🎟 Simple NFT Example
 - NFT's
-- Working with IPFS, how it uses hash 
+- Working with IPFS, how it uses hash. Here's a [video on IPFS.](https://www.youtube.com/watch?v=5Uj6uR3fp-U&ab_channel=SimplyExplained)
 - Minting the nft and transfer to wallet 
 - Verify a contract 
 - Notes: you can run yarn test for automated testing!!
