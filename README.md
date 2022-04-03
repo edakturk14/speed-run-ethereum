@@ -35,7 +35,7 @@ For more on Staking: [Ethereum Staking](https://ethereum.org/en/staking/#stake) 
 - Execute function: need to be run by the user, can not auto execute 
 - When the stake period if over, its completed. User shouldn't be able to make any actions. 
 
-## [In Progress] Challenge 2: 🏵 Token Vendor
+## [In Progress on Checkpoint 4] Challenge 2: 🏵 Token Vendor
 
 A token vendor is a place where you can buy and sell tokens. 
 - Create your own token 
