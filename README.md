@@ -35,7 +35,11 @@ For more on Staking: [Ethereum Staking](https://ethereum.org/en/staking/#stake) 
 - Execute function: need to be run by the user, can not auto execute 
 - When the stake period if over, its completed. User shouldn't be able to make any actions. 
 
-## [In Progress on Checkpoint 4] Challenge 2: 🏵 Token Vendor
+## ✅  Challenge 2: 🏵 Token Vendor
+
+
+**[Demo](https://challenge1-speedrunningethereum.surge.sh/)**, **[Contract](https://rinkeby.etherscan.io/address/0xA966A7776Eb58772dF33C52CA481b6C934A03415#code)**
+
 
 A token vendor is a place where you can buy and sell tokens. 
 - Create your own token 
@@ -55,4 +59,5 @@ Vendor.sol notes:
 - there are different options you can uses when sending eth: send(), transfer(), and call(). Here's a more info on the [topic](https://github.com/scaffold-eth/scaffold-eth/tree/send-ether-reentrancy). And a short quote:
 'recommended method for sending ether is the verbose: """ (bool sent, bytes memory _data) = msg.sender.call{value:a mount}(""); require(sent, "Failed to send Ether");` """'
 (also over [here](https://blockchain-academy.hs-mittweida.de/courses/solidity-coding-beginners-to-intermediate/lessons/solidity-2-sending-ether-receiving-ether-emitting-events/topic/sending-ether-send-vs-transfer-vs-call/) it states that call is the recommended way to send eth)
+(I used transfer in my contract, and after researching more learned that the call function whould have been a better way)
 
