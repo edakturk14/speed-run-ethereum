@@ -8,7 +8,7 @@ Here are my notes & key learnings on the way!
 
 ## ✅ Challenge 0: 🎟 Simple NFT Example
 
-**[Demo](https://challenge0-speedrunning.surge.sh/)**
+**[Demo](https://challenge0-speedrunning.surge.sh/)**,  **[Contract](https://rinkeby.etherscan.io/address/0x1aEda3999686e3933DEf92bF6A87228043985398)**
 
 - Working with IPFS, how it uses hash. Here's a [video on IPFS.](https://www.youtube.com/watch?v=5Uj6uR3fp-U&ab_channel=SimplyExplained)
 - Minting the NFT & transfer to wallet 
@@ -18,7 +18,7 @@ Here are my notes & key learnings on the way!
 
 ## ✅ Challenge 1: 🥩 Decentralized Staking App
 
-**[Demo](https://challenge1-speedrunning.surge.sh/)**
+**[Demo](https://challenge1-speedrunning.surge.sh/)**, **[Contract](https://rinkeby.etherscan.io/address/0x1175D26ff811ccCf7FB54CC889295df66876CE8C#code)**
 
 A staking app basically 'locks' up your digital tokens for a certain time. 
 You stake because the blockchain puts these tokens to work: Proof of Stake. If you stake your crypto it will become part of the process, transactions are validated by people who stake the tokens. 
