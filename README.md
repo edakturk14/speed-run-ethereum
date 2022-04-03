@@ -4,7 +4,8 @@ I'm [speeding running ethereum](https://speedrunethereum.com/) by [Austin Griffi
 
 ----
 
-### ✅ Challenge 0: 🎟 Simple NFT Example
+## ✅ Challenge 0: 🎟 Simple NFT Example
+
 **[Demo](https://challenge0-speedrunning.surge.sh/)**
 
 - NFT's
@@ -13,7 +14,8 @@ I'm [speeding running ethereum](https://speedrunethereum.com/) by [Austin Griffi
 - Verify a contract 
 - Notes: you can run yarn test for automated testing!!
 
-### ✅ Challenge 1: 🥩 Decentralized Staking App
+## ✅ Challenge 1: 🥩 Decentralized Staking App
+
 **[Demo](https://challenge1-speedrunning.surge.sh/)**
 
 A staking app basically 'locks' up your digital tokens for a certain time. 
@@ -28,7 +30,7 @@ For more on Staking: [Ethereum Staking](https://ethereum.org/en/staking/#stake) 
 ![staking app](./images/staking_app_design.png)
 - Execute function: need to be run by the user, can not auto execute 
 
-### [In Progress] Challenge 2: 🏵 Token Vendor
+## [In Progress] Challenge 2: 🏵 Token Vendor
 
 A token vendor is a place where you can buy and sell tokens. 
 - Create your own token 
