@@ -1,11 +1,17 @@
-# speed-run-ethereum
+# Speed Run-Ethereum
 
 I'm [speeding running ethereum](https://speedrunethereum.com/) by [Austin Griffith](https://twitter.com/austingriffith)! Here are my notes and learnings on the way!
+----
+
 
 ## Challenge 0: 🎟 Simple NFT Example
 - NFT's
 - Working with IPFS, how it uses hash 
-- Minting the nft and transfer to wallet  
+- Minting the nft and transfer to wallet 
+- Verify a contract 
+![verify_contract](./images/verify_contract.png)
+- Notes: you can run yarn test for automated testing!!
+![yarn_test](./images/yarn_test.png)
 
 ## Challenge 1: 🥩 Decentralized Staking App
 
