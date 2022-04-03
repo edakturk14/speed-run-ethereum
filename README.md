@@ -18,7 +18,7 @@ For more on Staking: [Ethereum Staking](https://ethereum.org/en/staking/#stake) 
 - Solidity Modifiers
 - Recap events in soildity 
 - Designing a staking app
-![staking app](./images/staking_app_design.PNG)
+![staking app](./images/staking_app_design.png)
 - Execute function: need to be run by the user, can not auto execute 
 
 ## Challenge 2: 🏵 Token Vendor
