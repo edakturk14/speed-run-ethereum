@@ -41,3 +41,13 @@ A token vendor is a place where you can buy and sell tokens.
 - Create your own token 
 - Create a place to buy and sell your own token.
 
+Some learnings:
+- Good practice for ERC20 (YourToken.sol inherits this openzepplin contract)   
+ - balanceOf allows you to check the balance of the address directly in erc20 :-)
+ - ERC 20 has a transfer() function
+
+- When someone buys from the vendor, the vendor tokens will decrease, and the vendor eth balance will increase (you could have guessed but strangely easy to make this happen)
+-  Getting the balance of the contract (address(this).balance)
+-  withdrawl from the contract is a common pattern, can be found [here](https://docs.soliditylang.org/en/v0.8.7/common-patterns.html)
+-  Ownership in contracts (this allows you to verify the actual owner and I think that they can append or something like that to the contract—need to verify this)--> Directly use the onlyOwner in your functions
+
