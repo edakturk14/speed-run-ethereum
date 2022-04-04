@@ -50,7 +50,7 @@ The project uses ERC20 token. Some key learnings:
  -  balanceOf allows you to check the balance of the address directly in ERC 20 :-)
  -  ERC 20 has a transfer() function, many of the functions are already there.
 
-& here's my [post](https://eda.hashnode.dev/create-your-own-cryptocurrency-token) on ERC20. 
+Here's my previous [post](https://eda.hashnode.dev/create-your-own-cryptocurrency-token) on ERC20. 
 
 Key learnings from Vendor.sol: 
 -  Getting the balance of the contract (address(this).balance)
