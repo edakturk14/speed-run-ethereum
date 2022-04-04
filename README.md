@@ -58,7 +58,7 @@ Vendor.sol notes:
 - there are different options you can uses when sending eth: send(), transfer(), and call(). Here's a more info on the [topic](https://github.com/scaffold-eth/scaffold-eth/tree/send-ether-reentrancy). And a short quote:
 'recommended method for sending ether is the verbose: """ (bool sent, bytes memory _data) = msg.sender.call{value:a mount}(""); require(sent, "Failed to send Ether");` """'
 (also over [here](https://blockchain-academy.hs-mittweida.de/courses/solidity-coding-beginners-to-intermediate/lessons/solidity-2-sending-ether-receiving-ether-emitting-events/topic/sending-ether-send-vs-transfer-vs-call/) it states that call is the recommended way to send eth)
-(I used transfer in my contract, and after researching more learned that the call function whould have been a better way)
+(I used transfer in my contract, and after researching more learned that the call function whould have been a better way) Also on [solidity by example](https://solidity-by-example.org/sending-ether/) -- for better gas usage use call
 - There is an approve pattern for ERC 20. Read more about it [here.](https://docs.ethhub.io/guides/a-straightforward-guide-erc20-tokens/) Basically you need to approve the tokens for transaction before the vendor can buy them back. The user approves that the tokens can go to the vendor. On the UI, you'll need to test with approve before directly selling the tokens back to the vendor. (It's a 2 process step and you need to sign 2 different transactions w/metamask as the user 1. to apporove the selling 2. to actually sell the tokens)
 
 
