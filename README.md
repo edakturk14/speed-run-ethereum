@@ -24,26 +24,25 @@ Here's my [post](https://eda.hashnode.dev/create-your-own-nft-collection-on-ethe
 
 **[Demo](https://challenge1-speedrunning.surge.sh/)**, **[Contract](https://rinkeby.etherscan.io/address/0x1175D26ff811ccCf7FB54CC889295df66876CE8C#code)**
 
-Staking App allows to coordinates economic activity (super power of crypto). It basically 'locks' up your funds for a certain time. You can withdraw or the funds will be used for a certain purpose.  
+Staking App allows to coordinates economic activity (super power of crypto). It basically 'locks' up your funds for a certain time. You can withdraw or the funds can be used for a certain purpose. *For example lets say you want to raise funds to buy the Mona Lisa, you can raise money from anyone why wants to contribute and you don't end up buying in the end people can withdraw their funds. Likewise you can raise money to buy the US Constitution :-)*
 
-In Proof of Stake blockchain, you stake so that the blockchain can put these tokens to work. If you stake your crypto it will become part of the process to validate/approve/add to the blockchain, transactions are validated by people who stake the tokens. For more on Staking: [Ethereum Staking](https://ethereum.org/en/staking/#stake) and [WhiteBoard Crypto.](https://www.youtube.com/watch?v=vZ2UZdB07fo&ab_channel=WhiteboardCrypto)
+In Proof of Stake blockchain, you stake so that the blockchain can put these tokens to work. If you stake your crypto, it will become part of the process to validate/approve/add to the blockchain, transactions are validated by people who stake the tokens. For more on Staking: [Ethereum Staking](https://ethereum.org/en/staking/#stake) and [WhiteBoard Crypto.](https://www.youtube.com/watch?v=vZ2UZdB07fo&ab_channel=WhiteboardCrypto)
 
-* The tricky part about the challenge is understanding what to build. Here's my design, to get the architecture:
+* The tricky part about the challenge was understanding what to build. Here's my design, to get an idea:
 ![staking app](./images/staking_app_design.png)
 *When the stake period is over, user shouldn't be able to make any actions (it's like game over)*
 
 Here are some key learnings:
 - Interacting with user address & balances: solidity practice (more on payable functions, msg.sender, msg.balance)
-- Solidity Modifiers (keep track of a state)
+- Solidity Modifiers (keep track of a state) 
 - Recap events in soildity (events & emit --> send to the frontend)
-- Execute function: need to be run by the user, smart contract does not auto execute 
+- Execute function: need to be run by the user, smart contract doesn't auto execute 
 
 ## ✅  Challenge 2: 🏵 Token Vendor
 
-
 **[Demo](https://challenge1-speedrunningethereum.surge.sh/)**, **[Contract](https://rinkeby.etherscan.io/address/0xA966A7776Eb58772dF33C52CA481b6C934A03415#code)**
 
-A token vendor is a place where you can buy and sell tokens. You can buy tokens with ETH, or sell your tokens in exchange for ETH. 
+Simply put a token vendor, is a machine from where you can buy and sell tokens. You can buy tokens with ETH, or sell your tokens in exchange for ETH. 
 
 The project uses ERC20 token. Some key learnings:
  -  YourToken.sol inherits this openzepplin contract 
