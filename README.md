@@ -64,7 +64,7 @@ Key learnings from Vendor.sol:
 ## Challenge 3: ⚖️ Build a DEX
 
 
-**[Demo]()**, **[Contract]()**
+**[Demo]()**, **[Contract](https://rinkeby.etherscan.io/address/0x3d25ca8b66f1d758dbf942394b9fdfb2e7753f7e#code)**
 
 A decentralized exchange (or DEX) is a peer-to-peer marketplace.  You can select from the avaliable tokens, and the choose what token you want to get in exchange for it. Then actually make the swap. 
 
