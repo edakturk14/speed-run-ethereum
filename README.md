@@ -78,7 +78,7 @@ In a very smiple form a DEX allows us to exchange the tokens and then based on t
 
 Liquidity refers to the amount of tokens in the pool of the DEX. If you buy a lot of one token, then the amount left in the pool could dramatically go down, following the price can go up. The same can apply vice-versa. This becomes an issue with low liquidity. 
 
-* Note: As with all crypto, there is no customer support. Be careful when you are making transactions and don't trust every site you land on. *
+*Note: As with all crypto, there is no customer support. Be careful when you are making transactions and don't trust every site you land on.*
 
 
 
