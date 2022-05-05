@@ -61,7 +61,22 @@ Key learnings from Vendor.sol:
 - There is an approve pattern for ERC 20. Read more about it [here.](https://docs.ethhub.io/guides/a-straightforward-guide-erc20-tokens/) .I found [this](https://stackoverflow.com/questions/70672642/whats-the-purpose-of-the-approve-function-in-erc-20) helpful to understand the purpose of approve (User allows the dex for example to spend their tokens). So, basically you need to approve the tokens for transaction before the vendor can buy them back. The user approves that the tokens can go to the vendor. On the UI, you'll need to test with approve before directly selling the tokens back to the vendor. (you are allowing the vendor smart contact to spend you tokens). On the UI, it's a 2 process step and you need to sign 2 different transactions w/metamask as the user 1) to apporove the selling 2) to actually sell the tokens (you can check how many tokens are approved from the allowances function). 
 
 
-## (to be started) Challenge 3: ⚖️ Build a DEX
+## Challenge 3: ⚖️ Build a DEX
+
+
+**[Demo]()**, **[Contract]()**
+
+A decentralized exchange (or DEX) is a peer-to-peer marketplace.  You can select from the avaliable tokens, and the choose what token you want to get in exchange for it. Then actually make the swap. Heres a simple examplier [video](https://www.youtube.com/watch?v=2tTVJL4bpTU&ab_channel=WhiteboardCrypto ) on what’s dex is.
+
+[Uniswap](https://uniswap.org/) and [1inch](https://1inch.io/) are two of the popular exchanges on Ethereum. 
+
+![dex image](./images/dex_image.png)
+
+In a very smiple form a DEX allows us to exchange the tokens and then based on the tokens in the pool it will automatically re-calculate the price of each. It works in a decentralized way, meaning that there is no central person in between checking the transactions, or modifying the price. That is what the smart contract is for. The smart contract is just like a legal agreement but its written in code. 
+
+As with all crypto, there is no customer support. Be careful when you are making transactions and don't trust every site you land on. 
+
+Liquidity refers to the amount of tokens in the pool of the DEX. If you buy a lot of one token, then the amount left in the pool could dramatically go down, following the price can go up. The same can apply vice-versa. This becomes an issue with low liquidity. 
 
 
 
