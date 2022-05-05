@@ -8,7 +8,7 @@ Here are my notes & key learnings on the way!
 
 ## ✅ Challenge 0: 🎟 Simple NFT Example
 
-**[Demo](https://challenge0-speedrunning.surge.sh/)**,  **[Contract](https://rinkeby.etherscan.io/address/0x1aEda3999686e3933DEf92bF6A87228043985398)**
+**[Live Demo](https://challenge0-speedrunning.surge.sh/)**,  **[Contract](https://rinkeby.etherscan.io/address/0x1aEda3999686e3933DEf92bF6A87228043985398)**
 
 This challange shows how to deploy a contract, how to upload it to a hosting platform, test it out on the interface and work with burner wallets. You will not be coding ,but its important to give you an idea of how scaffold-eth works & the different components. 
 
@@ -22,7 +22,7 @@ Here's my [post](https://eda.hashnode.dev/create-your-own-nft-collection-on-ethe
 
 ## ✅ Challenge 1: 🥩 Decentralized Staking App
 
-**[Demo](https://challenge1-speedrunning.surge.sh/)**, **[Contract](https://rinkeby.etherscan.io/address/0x1175D26ff811ccCf7FB54CC889295df66876CE8C#code)**
+**[Live Demo](https://challenge1-speedrunning.surge.sh/)**, **[Contract](https://rinkeby.etherscan.io/address/0x1175D26ff811ccCf7FB54CC889295df66876CE8C#code)**
 
 Staking App allows to coordinates economic activity (super power of crypto). It basically 'locks' up your funds for a certain time. You can withdraw or the funds can be used for a certain purpose. *For example lets say you want to raise funds to buy the Mona Lisa, you can raise money from anyone why wants to contribute and you don't end up buying in the end people can withdraw their funds. Likewise you can raise money to buy the US Constitution :-)*
 
@@ -40,7 +40,7 @@ Here are some key learnings:
 
 ## ✅  Challenge 2: 🏵 Token Vendor
 
-**[Demo](https://challenge1-speedrunningethereum.surge.sh/)**, **[Contract](https://rinkeby.etherscan.io/address/0xA966A7776Eb58772dF33C52CA481b6C934A03415#code)**
+**[Live Demo](https://challenge1-speedrunningethereum.surge.sh/)**, **[Contract](https://rinkeby.etherscan.io/address/0xA966A7776Eb58772dF33C52CA481b6C934A03415#code)**
 
 Simply put a token vendor, is a machine from where you can buy and sell tokens. You can buy tokens with ETH, or sell your tokens in exchange for ETH. 
 
@@ -61,9 +61,9 @@ Key learnings from Vendor.sol:
 - There is an approve pattern for ERC 20. Read more about it [here.](https://docs.ethhub.io/guides/a-straightforward-guide-erc20-tokens/) .I found [this](https://stackoverflow.com/questions/70672642/whats-the-purpose-of-the-approve-function-in-erc-20) helpful to understand the purpose of approve (User allows the dex for example to spend their tokens). So, basically you need to approve the tokens for transaction before the vendor can buy them back. The user approves that the tokens can go to the vendor. On the UI, you'll need to test with approve before directly selling the tokens back to the vendor. (you are allowing the vendor smart contact to spend you tokens). On the UI, it's a 2 process step and you need to sign 2 different transactions w/metamask as the user 1) to apporove the selling 2) to actually sell the tokens (you can check how many tokens are approved from the allowances function). 
 
 
-## Challenge 3: ⚖️ Build a DEX
+## ✅ Challenge 3: ⚖️ Build a DEX
 
-**[Demo](https://rambunctious-quilt-dex.surge.sh)**, **[Contract](https://rinkeby.etherscan.io/address/0x3d25ca8b66f1d758dbf942394b9fdfb2e7753f7e#code)**
+**[Live Demo](https://rambunctious-quilt-dex.surge.sh)**, **[Contract](https://rinkeby.etherscan.io/address/0x3d25ca8b66f1d758dbf942394b9fdfb2e7753f7e#code)**, **[GitHub Repo](https://github.com/edakturk14/dex-challenge)**
 
 A decentralized exchange (or DEX) is a peer-to-peer marketplace.  You can select from the avaliable tokens, and the choose what token you want to get in exchange for it. Then actually make the swap. 
 
@@ -86,14 +86,14 @@ Key learnings:
  - Solidity learning: we're using the openzeplin SafeMath libary, checkout the docs [here](https://docs.openzeppelin.com/contracts/2.x/api/math)
  - Recap on solidity require statements
  - Recap on solidity events  
- - Deploying the smart contract! Makes sure you understand what you are deploying especailly because if you add a lot of liquidity for initializing the DEX you will likly run into issues unless you have lots of testnet money or any network tokens on your account. May need to dig into the network configuartions to make some changes depending on the network you choose (i needed to adjust the gas fee)
+ - Deploying the smart contract! Makes sure you understand what you are deploying especailly because if you add a lot of liquidity for initializing the DEX you will likly run into issues unless you have lots of testnet money or any network tokens on your account. May need to dig into the network configuartions to make some changes depending on the network you choose (i needed to adjust the gas fee to make the transaction go through -- a lot debbuging involved). Also note that it can take time for the transactions to take place, its not as fast as your local host 😀
 
 ![dex image](./images/dex_image3.png)
 
 ## Challenge 4: 🏰️ BG 🏤 Bazaar
 
 
-## Challenge 5: 👛 Multisig Wallet
+## (In progress) Challenge 5: 👛 Multisig Wallet
 
 ## Challenge 6: 🎁 SVG NFT 🎫 Building Cohort
 
