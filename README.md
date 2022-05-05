@@ -68,7 +68,7 @@ Key learnings from Vendor.sol:
 
 A decentralized exchange (or DEX) is a peer-to-peer marketplace.  You can select from the avaliable tokens, and the choose what token you want to get in exchange for it. Then actually make the swap. 
 
-🎥 Heres a simple examplier [video](https://www.youtube.com/watch?v=2tTVJL4bpTU&ab_channel=WhiteboardCrypto ) on what a DEX is.
+🎥 Heres a simple examplier [video](https://www.youtube.com/watch?v=2tTVJL4bpTU&ab_channel=WhiteboardCrypto ) on what a DEX is. [Here's](https://www.coinbase.com/learn/crypto-basics/what-is-a-dex) also a good overview post on DEX's. 
 
 [Uniswap](https://uniswap.org/) and [1inch](https://1inch.io/) are two of the popular exchanges on Ethereum. 
 
