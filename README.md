@@ -92,8 +92,11 @@ Key learnings:
 
 ## Challenge 4: 🏰️ BG 🏤 Bazaar
 
+In this challange you're uploading your DEX to Buildguild to see how it works and join the Friday calls 😉
 
 ## (In progress) Challenge 5: 👛 Multisig Wallet
+
+Instructions [here](https://github.com/scaffold-eth/scaffold-eth-examples/tree/meta-multi-sig)
 
 ## Challenge 6: 🎁 SVG NFT 🎫 Building Cohort
 
