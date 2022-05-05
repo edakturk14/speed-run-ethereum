@@ -86,7 +86,7 @@ Key learnings:
  - Solidity learning: we're using the openzeplin SafeMath libary, checkout the docs [here](https://docs.openzeppelin.com/contracts/2.x/api/math)
  - Recap on solidity require statements
  - Recap on solidity events  
- - Deploying the smart contract, makes sure you understand what you are deploying especailly because if you add a lot of liquidity for initializing the DEX you will likly run into issues unless you have lots of testnet money or any network tokens on your account. 
+ - Deploying the smart contract! Makes sure you understand what you are deploying especailly because if you add a lot of liquidity for initializing the DEX you will likly run into issues unless you have lots of testnet money or any network tokens on your account. May need to dig into the network configuartions to make some changes depending on the network you choose (i needed to adjust the gas fee)
 
 ![dex image](./images/dex_image3.png)
 
