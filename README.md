@@ -80,5 +80,16 @@ Liquidity refers to the amount of tokens in the pool of the DEX. If you buy a lo
 
 *Note: As with all crypto, there is no customer support. Be careful when you are making transactions and don't trust every site you land on.*
 
+Key learnings: 
+ - How a dev actually works: creating reserves, keeping track of the liquidity (how many tokens there are), initialize a dev (it will have no money in the pool when first loaded)
+ - Approve pattern for erc20 token (needed to transfer tokens from one account to another)
+ - Price curve for DEX: when one token is taken or added the ratio in the pool will change (note: no such thing as a free lunch the DEX will take a fee for every exchange it makes, this is added to our price function) -- you’ll see the fee on the graph when you want to make a transaction
+ - Solidity learning: we're using the openzeplin SafeMath libary, checkout the docs [here](https://docs.openzeppelin.com/contracts/2.x/api/math)
+ - Recap on solidity require statements
+ - Recap on solidity events  
+
+![dex image](./images/dex_image3.png)
+
+
 
 
