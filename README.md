@@ -63,8 +63,7 @@ Key learnings from Vendor.sol:
 
 ## Challenge 3: ⚖️ Build a DEX
 
-
-**[Demo]()**, **[Contract](https://rinkeby.etherscan.io/address/0x3d25ca8b66f1d758dbf942394b9fdfb2e7753f7e#code)**
+**[Demo](challange3-thedex.surge.sh)**, **[Contract](https://rinkeby.etherscan.io/address/0x3d25ca8b66f1d758dbf942394b9fdfb2e7753f7e#code)**
 
 A decentralized exchange (or DEX) is a peer-to-peer marketplace.  You can select from the avaliable tokens, and the choose what token you want to get in exchange for it. Then actually make the swap. 
 
@@ -87,9 +86,16 @@ Key learnings:
  - Solidity learning: we're using the openzeplin SafeMath libary, checkout the docs [here](https://docs.openzeppelin.com/contracts/2.x/api/math)
  - Recap on solidity require statements
  - Recap on solidity events  
+ - Deploying the smart contract, makes sure you understand what you are deploying especailly because if you add a lot of liquidity for initializing the DEX you will likly run into issues unless you have lots of testnet money or any network tokens on your account. 
 
 ![dex image](./images/dex_image3.png)
 
+## Challenge 4: 🏰️ BG 🏤 Bazaar
+
+
+## Challenge 5: 👛 Multisig Wallet
+
+## Challenge 6: 🎁 SVG NFT 🎫 Building Cohort
 
 
 
