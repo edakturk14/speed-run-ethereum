@@ -66,7 +66,9 @@ Key learnings from Vendor.sol:
 
 **[Demo]()**, **[Contract]()**
 
-A decentralized exchange (or DEX) is a peer-to-peer marketplace.  You can select from the avaliable tokens, and the choose what token you want to get in exchange for it. Then actually make the swap. Heres a simple examplier [video](https://www.youtube.com/watch?v=2tTVJL4bpTU&ab_channel=WhiteboardCrypto ) on what’s dex is.
+A decentralized exchange (or DEX) is a peer-to-peer marketplace.  You can select from the avaliable tokens, and the choose what token you want to get in exchange for it. Then actually make the swap. 
+
+🎥 Heres a simple examplier [video](https://www.youtube.com/watch?v=2tTVJL4bpTU&ab_channel=WhiteboardCrypto ) on what a DEX is.
 
 [Uniswap](https://uniswap.org/) and [1inch](https://1inch.io/) are two of the popular exchanges on Ethereum. 
 
@@ -74,9 +76,9 @@ A decentralized exchange (or DEX) is a peer-to-peer marketplace.  You can select
 
 In a very smiple form a DEX allows us to exchange the tokens and then based on the tokens in the pool it will automatically re-calculate the price of each. It works in a decentralized way, meaning that there is no central person in between checking the transactions, or modifying the price. That is what the smart contract is for. The smart contract is just like a legal agreement but its written in code. 
 
-As with all crypto, there is no customer support. Be careful when you are making transactions and don't trust every site you land on. 
-
 Liquidity refers to the amount of tokens in the pool of the DEX. If you buy a lot of one token, then the amount left in the pool could dramatically go down, following the price can go up. The same can apply vice-versa. This becomes an issue with low liquidity. 
+
+* Note: As with all crypto, there is no customer support. Be careful when you are making transactions and don't trust every site you land on. *
 
 
 
