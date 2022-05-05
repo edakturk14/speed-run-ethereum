@@ -72,7 +72,7 @@ A decentralized exchange (or DEX) is a peer-to-peer marketplace.  You can select
 
 [Uniswap](https://uniswap.org/) and [1inch](https://1inch.io/) are two of the popular exchanges on Ethereum. 
 
-![dex image](./images/dex_image.png)
+![dex image](./images/dex_image2.png)
 
 In a very smiple form a DEX allows us to exchange the tokens and then based on the tokens in the pool it will automatically re-calculate the price of each. It works in a decentralized way, meaning that there is no central person in between checking the transactions, or modifying the price. That is what the smart contract is for. The smart contract is just like a legal agreement but its written in code. 
 
