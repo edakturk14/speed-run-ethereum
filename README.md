@@ -100,7 +100,7 @@ Instructions [here](https://github.com/scaffold-eth/scaffold-eth-examples/tree/m
 
 Multisig stands for multi-signature. It’s a digital signature that makes it possible for more than one user to sign a document. Its like a box with two or more keys. Depending on the rules you may need a certain number or just one key to open it. 
 
-Crypto wallets have single keys. This may be a problem when you want to setup a shared account or just have a backup for yourself. Thats where the mulish comes to play. (You can create an MFA for your wallet by having two approvers.)
+Crypto wallets have single keys. This may be a problem when you want to setup a shared account or just have a backup for yourself. Thats where the mulish comes to play. (You can create an MFA for your wallet by having two approvers, so its not just for having multiple users share an account but can be used as an security feature.)
 
 Today, [Gnosis Safe](https://gnosis-safe.io/) is the most popular multisig on Ethereum.  
 
