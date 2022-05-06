@@ -63,7 +63,7 @@ Key learnings from Vendor.sol:
 
 ## ✅ Challenge 3: ⚖️ Build a DEX
 
-**[Live Demo](https://rambunctious-quilt-dex.surge.sh)**, **[Contract](https://rinkeby.etherscan.io/address/0x3d25ca8b66f1d758dbf942394b9fdfb2e7753f7e#code)**, **[GitHub Repo](https://github.com/edakturk14/dex-challenge)**
+**[Live Demo](https://rambunctious-quilt-dex.surge.sh)**, **[Contract](https://rinkeby.etherscan.io/address/0x3d25ca8b66f1d758dbf942394b9fdfb2e7753f7e#code)**
 
 A decentralized exchange (or DEX) is a peer-to-peer marketplace.  You can select from the avaliable tokens, and the choose what token you want to get in exchange for it. Then actually make the swap. 
 
@@ -92,9 +92,11 @@ Key learnings:
 
 ## Challenge 4: 🏰️ BG 🏤 Bazaar
 
-In this challange you're uploading your DEX to Buildguild to see how it works and join the Friday calls 😉
+In this challange you're uploading your DEX to Buildguild Bazaar to see how it works. Also come and join the Friday calls 😉
 
 ## (In progress) Challenge 5: 👛 Multisig Wallet
+
+**[TO DO: Live Demo]()**, **[TO DO: Contract]()**
 
 Instructions [here](https://github.com/scaffold-eth/scaffold-eth-examples/tree/meta-multi-sig)
 
