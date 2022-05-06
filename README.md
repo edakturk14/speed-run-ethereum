@@ -98,6 +98,12 @@ In this challange you're uploading your DEX to Buildguild to see how it works an
 
 Instructions [here](https://github.com/scaffold-eth/scaffold-eth-examples/tree/meta-multi-sig)
 
+Multisig stands for multi-signature. It’s a digital signature that makes it possible for more than one user to sign a document. Its like a box with two or more keys. Depending on the rules you may need a certain number or just one key to open it. 
+
+Crypto wallets have single keys. This may be a problem when you want to setup a shared account or just have a backup for yourself. Thats where the mulish comes to play. (You can create an MFA for your wallet by having two approvers.)
+
+Today, [Gnosis Safe](https://gnosis-safe.io/) is the most popular multisig on Ethereum.  
+
 ## Challenge 6: 🎁 SVG NFT 🎫 Building Cohort
 
 
