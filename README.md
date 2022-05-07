@@ -108,5 +108,6 @@ Today, [Gnosis Safe](https://gnosis-safe.io/) is the most popular multisig on Et
 
 ## Challenge 6: 🎁 SVG NFT 🎫 Building Cohort
 
+SVG stands for "Scalable Vector Graphics." It's an XML language that can be used to create images. They can be encoded and set as images for the NFTs, thus the image is created by the code. 
 
 
