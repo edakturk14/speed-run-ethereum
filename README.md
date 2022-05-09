@@ -116,4 +116,5 @@ Building:
 
 SVG stands for "Scalable Vector Graphics." It's an XML language that can be used to create images. They can be encoded and set as images for the NFTs, thus the image is created by the code. 
 
+Task: get the main branch of Scaffold-eth and make an SVG NFT collection. EG: checkout chainlink for dynamic ones 
 
