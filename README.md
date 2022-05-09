@@ -106,6 +106,12 @@ Crypto wallets have single keys. This may be a problem when you want to setup a 
 
 Today, [Gnosis Safe](https://gnosis-safe.io/) is the most popular multisig on Ethereum.  
 
+BUilding:
+- Starting from the main branch of scaffold-eth and the building on. 
+- some goals:
+     *  understand why: yarn backend 
+     *  understand using ECDSA
+
 ## Challenge 6: 🎁 SVG NFT 🎫 Building Cohort
 
 SVG stands for "Scalable Vector Graphics." It's an XML language that can be used to create images. They can be encoded and set as images for the NFTs, thus the image is created by the code. 
