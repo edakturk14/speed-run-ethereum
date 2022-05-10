@@ -98,7 +98,8 @@ In this challange you're uploading your DEX to Buildguild Bazaar to see how it w
 
 **[TO DO: Live Demo]()**, **[TO DO: Contract]()**
 
-Instructions [here](https://github.com/scaffold-eth/scaffold-eth-examples/tree/meta-multi-sig)
+
+Instructions [here](https://github.com/scaffold-eth/scaffold-eth-examples/tree/meta-multi-sig). Task: get the main branch of Scaffold-eth and make a multi-sig. 
 
 Multisig stands for multi-signature. It’s a digital signature that makes it possible for more than one user to sign a document. Its like a box with two or more keys. Depending on the rules you may need a certain number or just one key to open it. 
 
