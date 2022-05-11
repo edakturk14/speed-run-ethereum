@@ -113,6 +113,8 @@ Building:
      *  understand why: yarn backend 
      *  understand using ECDSA
 
+https://www.youtube.com/watch?v=8ja72g_Dac4
+
 ## Challenge 6: 🎁 SVG NFT 🎫 Building Cohort
 
 SVG stands for "Scalable Vector Graphics." It's an XML language that can be used to create images. They can be encoded and set as images for the NFTs, thus the image is created by the code. 
