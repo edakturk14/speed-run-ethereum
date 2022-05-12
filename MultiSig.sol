@@ -50,7 +50,7 @@ contract MultiSig {
         
         // save the owners to the variable and make checks 
         for (uint i; i< _owners.length; i++){
-            address owner = owners[i];
+            address owner = _owners[i];
             require(owner != address(0), "invalid owner");
             require(!isOwner[owner],"already in the signers list" );
 
