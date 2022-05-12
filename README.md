@@ -105,6 +105,7 @@ Multisig stands for multi-signature. It’s a digital signature that makes it po
 Key learnings: 
 - memory vs storage, modifiers in solidiy 
 - Lots of pracite checkout my practice smart contract for how it works [here](./MultiSig.sol) following [this tutorial](https://www.youtube.com/watch?v=8ja72g_Dac4)
+- React Hooks recap 
 
 ## Challenge 6: 🎁 SVG NFT 🎫 Building Cohort
 
