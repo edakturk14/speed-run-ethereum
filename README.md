@@ -106,13 +106,9 @@ Crypto wallets have single keys. This may be a problem when you want to setup a 
 
 Today, [Gnosis Safe](https://gnosis-safe.io/) is the most popular multisig on Ethereum.  
 
-Building:
-- Starting from the main branch of scaffold-eth and the building on. 
-- some goals:
-     *  understand why: yarn backend 
-     *  understand using ECDSA
-
-https://www.youtube.com/watch?v=8ja72g_Dac4
+Key learnings: 
+- memory vs storage, modifiers in solidiy 
+- Lots of pracite checkout my practice smart contract for how it works [here](./MultiSig.sol) following [this tutorial](https://www.youtube.com/watch?v=8ja72g_Dac4)
 
 ## Challenge 6: 🎁 SVG NFT 🎫 Building Cohort
 
