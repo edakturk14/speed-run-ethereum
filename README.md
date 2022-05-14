@@ -112,12 +112,17 @@ Key learnings:
 
 ## Challenge 6: 🎁 SVG NFT 🎫 Building Cohort
 
+**[Live Demo]()**, **[Contract](https://rinkeby.etherscan.io/address/0x27a03346daaf6d88795feaa4f1a464d9a9ee7142#code)**
+
+**NOTE: SVG NFT are working, the randomness is work in progress**
+
 SVG stands for "Scalable Vector Graphics." It's an XML language that can be used to create images. They can be encoded and set as images for the NFTs, thus the image is created by the code. 
 
 Task: get the main branch of Scaffold-eth and make an SVG NFT collection. EG: checkout chainlink for dynamic ones 
 
 Notes:
-- My previous [blog post](https://eda.hashnode.dev/create-your-own-nft-collection-on-ethereum) on creating an NFT collection
+- My previous [blog post](https://eda.hashnode.dev/create-your-own-nft-collection-on-ethereum) on creating an NFT collection (not onchain)
+- Previous [blog post](https://eda.hashnode.dev/create-your-generative-nft-collection-on-polygon) on creating genererative nft with data on ipfs (not svg)
 
 Randomness w/chainlink resources:
 - [How to make NFT Art with On-Chain Metadata](https://www.youtube.com/watch?v=9oERTH9Bkw0&t=5226s&ab_channel=PatrickCollins)
