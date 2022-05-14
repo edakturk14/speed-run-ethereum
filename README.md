@@ -109,7 +109,7 @@ Key learnings:
 - Solidity Events practive
 - Working with ECDSA:  functions for recovering and managing Ethereum account, more [here](https://docs.openzeppelin.com/contracts/2.x/utilities); its a method for checking signatures on-chain 
 - Its painful to iterate through a mapping and you cannot because mappings are virtually initialised. All variables are assigned. If you want to iterate must define a struct on top of it. More on mappings: [here](https://www.geeksforgeeks.org/solidity-mappings/)
-- Calldata vs. memory in solidiy. Memory is for variables that are defined within the function. Calldata is an immutable, temporary location where function arguments are stored, and behaves mostly like memory. Calldata over memory , provides gas savings.
+- Calldata vs. memory. Memory is for variables that are defined within the function. Calldata is an immutable, temporary location where function arguments are stored, and behaves mostly like memory. Calldata over memory , provides gas savings.
 - QUESTIONS: get the address array from the frontend
 
 ##  ✅  Challenge 6: 🎁 SVG NFT 🎫 Building Cohort
