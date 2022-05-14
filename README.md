@@ -110,7 +110,7 @@ Key learnings:
 - Working with ECDSA:  functions for recovering and managing Ethereum account, more [here](https://docs.openzeppelin.com/contracts/2.x/utilities); its a method for checking signatures on-chain 
 - QUESTIONS: get the address array from the frontend
 
-## Challenge 6: 🎁 SVG NFT 🎫 Building Cohort
+##  ✅  Challenge 6: 🎁 SVG NFT 🎫 Building Cohort
 
 **[Live Demo]()**, **[Contract](https://rinkeby.etherscan.io/address/0x27a03346daaf6d88795feaa4f1a464d9a9ee7142#code)**
 
