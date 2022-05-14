@@ -104,10 +104,10 @@ Multisig stands for multi-signature. It’s a digital signature that makes it po
 
 Key learnings: 
 - memory vs storage, modifiers in solidiy 
-- Lots of pracite checkout my practice smart contract for how it works [here](./contracts/MultiSig.sol) following [this tutorial](https://www.youtube.com/watch?v=8ja72g_Dac4)
+- Lots of pracite checkout my practice smart contract for how it works [here](./contracts/MultiSig.sol) following [this tutorial](https://www.youtube.com/watch?v=8ja72g_Dac4) (this does not use ECDSA, not safe. Doesn't verify signatures.)
 - React Hooks recap 
 - Solidity Events practive
-- Working with ECDSA:  functions for recovering and managing Ethereum accoun, more [here](https://docs.openzeppelin.com/contracts/2.x/utilities); its a method for checking signatures on-chain 
+- Working with ECDSA:  functions for recovering and managing Ethereum account, more [here](https://docs.openzeppelin.com/contracts/2.x/utilities); its a method for checking signatures on-chain 
 - QUESTIONS: get the address array from the frontend
 
 ## Challenge 6: 🎁 SVG NFT 🎫 Building Cohort
@@ -116,3 +116,5 @@ SVG stands for "Scalable Vector Graphics." It's an XML language that can be used
 
 Task: get the main branch of Scaffold-eth and make an SVG NFT collection. EG: checkout chainlink for dynamic ones 
 
+Notes:
+- My previous [blog post](https://eda.hashnode.dev/create-your-own-nft-collection-on-ethereum) on creating an NFT collection
