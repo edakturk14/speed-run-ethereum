@@ -94,9 +94,9 @@ Key learnings:
 
 In this challange you're uploading your DEX to Buildguild Bazaar to see how it works. Also come and join the Friday calls 😉
 
-## (In progress) Challenge 5: 👛 Multisig Wallet
+## ✅  Challenge 5: 👛 Multisig Wallet
 
-**[TO DO: Live Demo]()**, **[TO DO: Contract]()**
+**[TO DO: Live Demo]()**, **[TO DO: Contract]()**, **[GitHub](https://github.com/edakturk14/multi-sig-challenge)**
 
 Instructions [here](https://github.com/scaffold-eth/scaffold-eth-examples/tree/meta-multi-sig). Task: get the main branch of Scaffold-eth and make a multi-sig. FYI clone a single branch: git clone --single-branch --branch master (_url_)
 
