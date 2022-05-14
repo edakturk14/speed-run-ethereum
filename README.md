@@ -118,3 +118,7 @@ Task: get the main branch of Scaffold-eth and make an SVG NFT collection. EG: ch
 
 Notes:
 - My previous [blog post](https://eda.hashnode.dev/create-your-own-nft-collection-on-ethereum) on creating an NFT collection
+
+Randomness w/chainlink resources:
+- [How to make NFT Art with On-Chain Metadata](https://www.youtube.com/watch?v=9oERTH9Bkw0&t=5226s&ab_channel=PatrickCollins)
+- [Chainlink Docs](https://docs.chain.link/docs/get-a-random-number/)
