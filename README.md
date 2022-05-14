@@ -112,7 +112,7 @@ Key learnings:
 
 ##  ✅  Challenge 6: 🎁 SVG NFT 🎫 Building Cohort
 
-**[Live Demo]()**, **[Contract](https://rinkeby.etherscan.io/address/0x27a03346daaf6d88795feaa4f1a464d9a9ee7142#code)**
+**[Live Demo](https://trite-bushes-nft.surge.sh)**, **[Contract](https://rinkeby.etherscan.io/address/0x27a03346daaf6d88795feaa4f1a464d9a9ee7142#code)**
 
 **NOTE: SVG NFT are working, the randomness is work in progress**
 
