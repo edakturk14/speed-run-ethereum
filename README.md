@@ -108,6 +108,8 @@ Key learnings:
 - **Mappings:** Its painful to iterate through a mapping and you cannot because mappings are virtually initialised. All variables are assigned. If you want to iterate must define a struct on top of it. More on mappings: [here](https://www.geeksforgeeks.org/solidity-mappings/). On my multisig I store the signer addresses in an array and have the functions to add/remove from it. 
 - **Calldata vs. memory** Memory is for variables that are defined within the function. Calldata is an immutable, temporary location where function arguments are stored, and behaves mostly like memory. Calldata over memory , provides gas savings.
 - Working with **ECDSA:**  functions for recovering and managing Ethereum account, more [here](https://docs.openzeppelin.com/contracts/2.x/utilities); its a method for checking signatures on-chain 
+- NOTE: 💰 When you are executing a transaction you need to have money in your smart contract. You can not send something you don't have...
+- The backend is needed to create & eceute a transaction. 
 
 ##  ✅  Challenge 6: 🎁 SVG NFT 🎫 Building Cohort
 
