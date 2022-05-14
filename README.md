@@ -103,11 +103,13 @@ Instructions [here](https://github.com/scaffold-eth/scaffold-eth-examples/tree/m
 Multisig stands for multi-signature. It’s a digital signature that makes it possible for more than one user to sign a document. Its like a box with two or more keys. Depending on the rules you may need a certain number or just one key to open it. Crypto wallets have single keys. This may be a problem when you want to setup a shared account or just have a backup for yourself. Thats where the mulish comes to play. (You can create an MFA for your wallet by having two approvers, so its not just for having multiple users share an account but can be used as an security feature.) Today, [Gnosis Safe](https://gnosis-safe.io/) is the most popular multisig on Ethereum.  
 
 Key learnings: 
-- memory vs storage, modifiers in solidiy 
+- Using modifiers in solidiy 
 - Lots of pracite checkout my practice smart contract for how it works [here](./contracts/MultiSig.sol) following [this tutorial](https://www.youtube.com/watch?v=8ja72g_Dac4) (this does not use ECDSA, not safe. Doesn't verify signatures.)
 - React Hooks recap 
 - Solidity Events practive
 - Working with ECDSA:  functions for recovering and managing Ethereum account, more [here](https://docs.openzeppelin.com/contracts/2.x/utilities); its a method for checking signatures on-chain 
+- Its painful to iterate through a mapping and you cannot because mappings are virtually initialised. All variables are assigned. If you want to iterate must define a struct on top of it. More on mappings: [here](https://www.geeksforgeeks.org/solidity-mappings/)
+- Calldata vs. memory in solidiy. Memory is for variables that are defined within the function. Calldata is an immutable, temporary location where function arguments are stored, and behaves mostly like memory. Calldata over memory , provides gas savings.
 - QUESTIONS: get the address array from the frontend
 
 ##  ✅  Challenge 6: 🎁 SVG NFT 🎫 Building Cohort
