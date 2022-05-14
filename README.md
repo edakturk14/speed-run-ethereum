@@ -104,7 +104,7 @@ Multisig stands for multi-signature. It’s a digital signature that makes it po
 
 Key learnings: 
 - memory vs storage, modifiers in solidiy 
-- Lots of pracite checkout my practice smart contract for how it works [here](./MultiSig.sol) following [this tutorial](https://www.youtube.com/watch?v=8ja72g_Dac4)
+- Lots of pracite checkout my practice smart contract for how it works [here](./contracts/MultiSig.sol) following [this tutorial](https://www.youtube.com/watch?v=8ja72g_Dac4)
 - React Hooks recap 
 - Solidity Events practive
 - Working with ECDSA:  functions for recovering and managing Ethereum accoun, more [here](https://docs.openzeppelin.com/contracts/2.x/utilities); its a method for checking signatures on-chain 
