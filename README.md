@@ -111,7 +111,8 @@ Key learnings:
 - NOTE: 💰 When you are executing a transaction you need to have money in your smart contract. You can not send something you don't have...
 - The backend is needed to create & execute a transaction. A transaction cannot be executed w/o the required number of signatures. 
 
-![multisig video](./images/multi_sig.mov)
+<video src="https://user-images.githubusercontent.com/22100698/168458209-d292f137-b712-439a-8bec-2da94beee645.mov" controls="controls" style="max-width: 200px;">
+</video>
 
 ##  ✅  Challenge 6: 🎁 SVG NFT 🎫 Building Cohort
 
