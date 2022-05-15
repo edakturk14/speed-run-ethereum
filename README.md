@@ -111,6 +111,8 @@ Key learnings:
 - NOTE: 💰 When you are executing a transaction you need to have money in your smart contract. You can not send something you don't have...
 - The backend is needed to create & execute a transaction. A transaction cannot be executed w/o the required number of signatures. 
 
+![multisig video](./images/multi_sig.mov)
+
 ##  ✅  Challenge 6: 🎁 SVG NFT 🎫 Building Cohort
 
 **[Live Demo](https://trite-bushes-nft.surge.sh)**, **[Contract](https://rinkeby.etherscan.io/address/0x27a03346daaf6d88795feaa4f1a464d9a9ee7142#code)**
@@ -125,6 +127,7 @@ Notes:
 - My previous [blog post](https://eda.hashnode.dev/create-your-own-nft-collection-on-ethereum) on creating an NFT collection (not onchain)
 - Previous [blog post](https://eda.hashnode.dev/create-your-generative-nft-collection-on-polygon) on creating genererative nft with data on ipfs (not svg)
 
-Randomness w/chainlink resources:
+Extra Randomness w/chainlink resources: (*didn't add to the nft, might add later on*)
 - [How to make NFT Art with On-Chain Metadata](https://www.youtube.com/watch?v=9oERTH9Bkw0&t=5226s&ab_channel=PatrickCollins)
-- [Chainlink Docs](https://docs.chain.link/docs/get-a-random-number/)
+- https://docs.chain.link/docs/intermediates-tutorial/
+- Note to use, you must create a VRF subscription AND add the consumer to the subscription. [Here](https://vrf.chain.link/) is the webpage. 
