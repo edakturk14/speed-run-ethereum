@@ -109,7 +109,7 @@ Key learnings:
 - **Calldata vs. memory** Memory is for variables that are defined within the function. Calldata is an immutable, temporary location where function arguments are stored, and behaves mostly like memory. Calldata over memory , provides gas savings.
 - Working with **ECDSA:**  functions for recovering and managing Ethereum account, more [here](https://docs.openzeppelin.com/contracts/2.x/utilities); its a method for checking signatures on-chain 
 - NOTE: 💰 When you are executing a transaction you need to have money in your smart contract. You can not send something you don't have...
-- The backend is needed to create & execute a transaction. A transaction cannot be executed w/o the required number of signatures. 
+- The backend is needed to create & execute a transaction. A transaction cannot be executed w/o the required number of signatures. ([Here](https://github.com/edakturk14/speed-run-ethereum/blob/main/images/connection_refused.png) is how the error looks like, "inspect" on the browser to see).
 
 <video src="https://user-images.githubusercontent.com/22100698/168458209-d292f137-b712-439a-8bec-2da94beee645.mov" controls="controls" style="max-width: 200px;">
 </video>
