@@ -121,7 +121,7 @@ Key learnings:
 
 SVG stands for "Scalable Vector Graphics." It's an XML language that can be used to create images. They can be encoded and set as images for the NFTs. Thus the image is created by the code. 
 
-Task: Get Scaffold-eth's master branch and make an SVG NFT collection. EG: checkout chainlink for dynamic ones 
+Task: Get Scaffold-eth's master branch and make an SVG NFT collection. EG: checkout **Chainlink** for dynamic ones 
 
 Notes:
 - My previous [blog post](https://eda.hashnode.dev/create-your-own-nft-collection-on-ethereum) on creating an NFT collection (not onchain)
