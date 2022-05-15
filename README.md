@@ -1,8 +1,8 @@
 # Speed Running Ethereum
 
-I'm [speeding running ethereum](https://speedrunethereum.com/) by [Austin Griffith](https://twitter.com/austingriffith)! 
+I completed [speed running ethereum](https://speedrunethereum.com/) by [Austin Griffith](https://twitter.com/austingriffith)🏗
 
-Here are my notes & key learnings on the way!
+Here are my notes & key learnings on the way! 
 
 ----
 
